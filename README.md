@@ -26,3 +26,8 @@ mysql -u sail -ppassword -h 127.0.0.1 laravel
 
 - CSS / JS を書くときは `npm run dev` しておく
 - 書き終わったら `npm run build` する
+
+## その他
+
+- このリポジトリをフォークしたらCIが通るように GitHub Actions の設定を変更する  
+  リポジトリの Settings \> Actions \> General \> Workflow permissions を「Read and write permissions」に変更する
