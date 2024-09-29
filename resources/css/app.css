@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+button {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
 .product {
     display: block;
     padding: 20px;
+}
+
+.product-detail {
+    padding: 20px;
+}
+
+.product-form {
+    margin: 20px 0;
 }
